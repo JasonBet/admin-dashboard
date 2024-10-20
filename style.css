@@ -21,3 +21,31 @@
     display: block;
     max-inline-size: 100%;
   }
+
+/* Main Container Styles */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4.5fr;
+    grid-template-areas: 
+    "sidebar header"
+    "sidebar main-content-container";
+}
+
+.sidebar {
+    background-color: blue;
+    grid-area: sidebar;
+}
+
+.header {
+    background-color: red;
+    grid-area: header;
+}
+
+.main-content-container {
+    background-color: green;
+    grid-area: main-content-container;
+}
