@@ -36,16 +36,18 @@
 }
 
 .sidebar {
-    background-color: blue;
+    background-color: #1992D4;
     grid-area: sidebar;
 }
 
 .header {
-    background-color: red;
+    background-color: white;
     grid-area: header;
 }
 
 .main-content-container {
-    background-color: green;
+    background-color: #E2E8F0;
     grid-area: main-content-container;
 }
+
+/* Sidebar Elements */
