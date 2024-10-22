@@ -83,3 +83,22 @@
 }
 
 /* Header Elements */
+.header {
+
+}
+
+.upper-header {
+
+}
+
+.upper-header svg {
+  width: 2rem;
+  height: auto;
+}
+
+.upper-header input {
+  border: none;
+  background-color: #E2E8F0;
+  border-radius: 8px;
+  width: clamp(300px, 30vw, 700px);
+}
