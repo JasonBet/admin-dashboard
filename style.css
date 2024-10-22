@@ -115,11 +115,27 @@
   align-items: center;
 }
 
-.search svg {
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  align-items: center;
+}
 
+.controls img {
+  width: 60px;
+  height: auto;
+}
+
+.propic {
+  border-radius: 50%;
 }
 
 .lower-header {
   display: grid;
   grid-template-columns: 2fr 1fr;
+}
+
+.lower-header img {
+  width: 100px;
+  height: auto;
 }
