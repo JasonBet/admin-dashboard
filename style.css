@@ -53,13 +53,13 @@
 /* Sidebar Elements */
 .sidebar {
   display: grid;
-  grid-template-rows: 1fr 8fr;
-  place-items: start;
+  grid-template-rows: 1fr 5fr 4fr;
 }
 
 .logo {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  align-items: center;
   justify-items: center;
 }
 
@@ -72,6 +72,7 @@
 .sidebar-options {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  align-items: center;
   justify-items: center;
 }
 
