@@ -86,6 +86,7 @@
 .header {
   display: grid;
   grid-template-rows: 1fr 1fr;
+  padding-left: 32px;
 }
 
 .header svg {
@@ -136,6 +137,11 @@
 }
 
 .lower-header img {
-  width: 100px;
+  width: 80px;
   height: auto;
+}
+
+.self {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 2fr;
 }
