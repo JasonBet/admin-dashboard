@@ -84,11 +84,8 @@
 
 /* Header Elements */
 .header {
-
-}
-
-.upper-header {
-
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 .header svg {
@@ -96,11 +93,33 @@
   height: auto;
 }
 
+.upper-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
 .upper-header input {
   border: none;
   background-color: #E2E8F0;
   border-radius: 10px;
   width: clamp(300px, 30vw, 700px);
-  height: 1.25rem;
+  height: 1.35rem;
   padding: 0px 0.5rem;
+
+
+}
+
+.search {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  align-items: center;
+}
+
+.search svg {
+
+}
+
+.lower-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
