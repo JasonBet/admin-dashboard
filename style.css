@@ -91,7 +91,7 @@
 
 }
 
-.upper-header svg {
+.header svg {
   width: 2rem;
   height: auto;
 }
@@ -99,6 +99,8 @@
 .upper-header input {
   border: none;
   background-color: #E2E8F0;
-  border-radius: 8px;
+  border-radius: 10px;
   width: clamp(300px, 30vw, 700px);
+  height: 1.25rem;
+  padding: 0px 0.5rem;
 }
