@@ -240,17 +240,23 @@
 }
 
 /* Main Content Elements */
-.main-content-container {
+.content-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
 
+  grid-template-areas: 
+  "projects announcements"
+  "projects trending";
 }
 
-.main-content-container svg {
+.content-container svg {
   width: 2rem;
   height: auto;
 }
 
 .projects {
-
+  grid-area: projects;
 }
 
 .project-card {
@@ -259,4 +265,17 @@
   width: 400px;
   height: 300px;
   background-color: white;
+}
+
+.announcements {
+  grid-area: announcements;
+}
+
+.trending {
+  grid-area: trending;
+}
+
+.trending img {
+  width: 60px;
+  height: auto;
 }
