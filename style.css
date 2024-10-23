@@ -76,6 +76,10 @@
   justify-items: center;
 }
 
+.symbol-text {
+  justify-self: start;
+}
+
 .sidebar-options svg {
   fill: white;
   width: 2rem;
