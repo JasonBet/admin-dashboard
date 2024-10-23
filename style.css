@@ -22,32 +22,106 @@
     max-inline-size: 100%;
   }
 
+/* Font Code */
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 /* Main Container Styles */
 .main-container {
-    width: 100vw;
-    height: 100vh;
+  font-family: "Roboto", ser;
+  width: 100vw;
+  height: 100vh;
 
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 4.5fr;
-    grid-template-areas: 
-    "sidebar header"
-    "sidebar main-content-container";
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4.5fr;
+  grid-template-areas: 
+  "sidebar header"
+  "sidebar main-content-container";
 }
 
 .sidebar {
-    background-color: hsl(201, 79%, 46%);
-    grid-area: sidebar;
+  background-color: hsl(201, 79%, 46%);
+  grid-area: sidebar;
 }
 
 .header {
-    background-color: white;
-    grid-area: header;
+  background-color: white;
+  grid-area: header;
 }
 
 .main-content-container {
-    background-color: #E2E8F0;
-    grid-area: main-content-container;
+  background-color: #E2E8F0;
+  grid-area: main-content-container;
 }
 
 /* Sidebar Elements */
@@ -163,4 +237,18 @@
   border: none;
   background-color: #1992D4;
   color: white;
+}
+
+/* Main Content Elements */
+.main-content-container {
+
+}
+
+.main-content-container svg {
+  width: 2rem;
+  height: auto;
+}
+
+.projects {
+
 }
