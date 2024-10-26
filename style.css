@@ -310,6 +310,19 @@
   grid-area: trending;
 }
 
+.trending-card {
+  background-color: white;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.trending-profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
 .trending img {
   width: 60px;
   height: auto;
