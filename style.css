@@ -268,6 +268,7 @@
 .content-container h2 {
   font-weight: bold;
   font-size: 1.25rem;
+  margin-bottom: 4px;
 }
 
 .content-container svg {
@@ -322,8 +323,12 @@
   font-size: 0.75rem;
   box-sizing: border-box;
   background-color: white;
-  padding: 16px;
+  padding: 32px;
   border-radius: 8px;
+}
+
+hr {
+  margin: 12px 0px;
 }
 
 .announcement-card h3 {
@@ -334,6 +339,7 @@
 .trending {
   grid-area: trending;
   width: 80%;
+  align-self: end;
 }
 
 .trending-card {
